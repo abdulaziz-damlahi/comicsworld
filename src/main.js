@@ -1,8 +1,7 @@
 import './assets/main.css'
-
 import { createApp } from 'vue'
 import App from './App.vue'
-
+import axios from "axios";
 createApp(App).mount('#app')
 
 window.onload = () => {
@@ -27,3 +26,4 @@ window.onload = () => {
         img.addEventListener('mouseover', () => posterSlide2.className = "poster-slide2 hovered2")
     })
 }
+
